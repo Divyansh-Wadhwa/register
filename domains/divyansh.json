@@ -1,0 +1,24 @@
+{
+    "owner": {
+        "username": "Divyansh-Wadhwa",
+    },
+    "record": {
+        "TXT": [
+            {
+                "name": "resend._domainkey.divyansh",
+                "text": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGPsRqjKXN/6V4CzJTV4fN7zEihSru5HOQp1e4siveG7wuagFfkMxMGg7+WGyyiC77NHpH9+VsR25/aT+5GxZGOWYq18kfoVh4T2pmWG9f6BPTProacU1hUKz+Pct9WUT8YY4dZu5UOfQcQcG1wSMnTNJuhjL3vez21sXkK4RcQwIDAQAB"
+            },
+            {
+                "name": "send",
+                "text": "v=spf1 include:amazonses.com ~all"
+            }
+        ],
+        "MX": [
+            {
+                "name": "send",
+                "target": "feedback-smtp.ap-northeast-1.amazonses.com",
+                "priority": 10
+            }
+        ]
+    }
+}
